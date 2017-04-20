@@ -1,0 +1,60 @@
+# Documentation: https://roots.io/trellis/docs/local-development-setup/
+# `wordpress_sites` options: https://roots.io/trellis/docs/wordpress-sites
+# Define accompanying passwords/secrets in group_vars/development/vault.yml
+
+wordpress_sites:
+  example.com:
+    site_hosts:
+      - canonical: example.dev
+        redirects:
+          - www.example.dev
+    local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
+    admin_email: admin@example.dev
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: self-signed
+    cache:
+      enabled: false
+
+wordpress_sites:
+  ghettifish.com:
+    site_hosts:
+      - canonical: ghettifish.ghet.co
+        redirects:
+          - www.ghettifish.com
+    local_path: ../ghettifish.com # path targeting local Bedrock site directory (relative to Ansible root)
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: letsencrypt
+    cache:
+      enabled: false
+  nicbovee.com:
+    site_hosts:
+      - canonical: nicbovee.ghet.co
+        redirects:
+          - www.nicbovee.com
+    local_path: ../nicbovee.com # path targeting local Bedrock site directory (relative to Ansible root)
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: letsencrypt
+    cache:
+      enabled: false
+  writeastoryfor.me:
+    site_hosts:
+      - canonical: writeastoryfor.ghet.co
+        redirects:
+          - writeastoryfor.me
+    local_path: ../writeastoryfor.me # path targeting local Bedrock site directory (relative to Ansible root)
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: letsencrypt
+    cache:
+      enabled: false
