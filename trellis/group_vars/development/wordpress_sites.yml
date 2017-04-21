@@ -3,28 +3,27 @@
 # Define accompanying passwords/secrets in group_vars/development/vault.yml
 
 wordpress_sites:
-  example.com:
+  mowgul.com:
     site_hosts:
-      - canonical: example.dev
+      - canonical: mowgul.dev
         redirects:
-          - www.example.dev
-    local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    admin_email: admin@example.dev
+          - www.mowgul.com
+    local_path: ../ghettifish.com # path targeting local Bedrock site directory (relative to Ansible root)
+    admin_email: nic@ghettifish.com
     multisite:
       enabled: false
     ssl:
       enabled: false
-      provider: self-signed
+      provider: letsencrypt
     cache:
       enabled: false
-
-wordpress_sites:
   ghettifish.com:
     site_hosts:
-      - canonical: ghettifish.ghet.co
+      - canonical: ghettifish.dev
         redirects:
           - www.ghettifish.com
     local_path: ../ghettifish.com # path targeting local Bedrock site directory (relative to Ansible root)
+    admin_email: nic@ghettifish.com
     multisite:
       enabled: false
     ssl:
@@ -34,10 +33,11 @@ wordpress_sites:
       enabled: false
   nicbovee.com:
     site_hosts:
-      - canonical: nicbovee.ghet.co
+      - canonical: nicbovee.dev
         redirects:
           - www.nicbovee.com
     local_path: ../nicbovee.com # path targeting local Bedrock site directory (relative to Ansible root)
+    admin_email: nic@ghettifish.com
     multisite:
       enabled: false
     ssl:
@@ -47,10 +47,11 @@ wordpress_sites:
       enabled: false
   writeastoryfor.me:
     site_hosts:
-      - canonical: writeastoryfor.ghet.co
+      - canonical: writeastoryfor.dev
         redirects:
           - writeastoryfor.me
     local_path: ../writeastoryfor.me # path targeting local Bedrock site directory (relative to Ansible root)
+    admin_email: nic@ghettifish.com
     multisite:
       enabled: false
     ssl:
