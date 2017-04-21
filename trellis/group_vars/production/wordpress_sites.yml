@@ -5,7 +5,7 @@
 wordpress_sites:
   ghettifish.com:
     site_hosts:
-      - canonical: ghettifish.ghet.co
+      - canonical: ghettifish.com
         redirects:
           - www.ghettifish.com
     local_path: ../ghettifish.com # path targeting local Bedrock site directory (relative to Ansible root)
@@ -15,13 +15,13 @@ wordpress_sites:
     multisite:
       enabled: false
     ssl:
-      enabled: false
+      enabled: true
       provider: letsencrypt
     cache:
-      enabled: false
+      enabled: true
   nicbovee.com:
     site_hosts:
-      - canonical: nicbovee.ghet.co
+      - canonical: nicbovee.com
         redirects:
           - www.nicbovee.com
     local_path: ../nicbovee.com # path targeting local Bedrock site directory (relative to Ansible root)
@@ -31,15 +31,15 @@ wordpress_sites:
     multisite:
       enabled: false
     ssl:
-      enabled: false
+      enabled: true
       provider: letsencrypt
     cache:
-      enabled: false
+      enabled: true
   writeastoryfor.me:
     site_hosts:
-      - canonical: writeastoryfor.ghet.co
+      - canonical: writeastoryfor.me
         redirects:
-          - writeastoryfor.me
+          - www.writeastoryfor.me
     local_path: ../writeastoryfor.me # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:nicbovee/mowgul.git # replace with your Git repo URL
     repo_subtree_path: writeastoryfor.me # relative path to your Bedrock/WP directory in your repo
@@ -47,7 +47,7 @@ wordpress_sites:
     multisite:
       enabled: false
     ssl:
-      enabled: false
+      enabled: true
       provider: letsencrypt
     cache:
-      enabled: false
+      enabled: true
