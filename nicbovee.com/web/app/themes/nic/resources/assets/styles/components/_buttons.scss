@@ -1,0 +1,15 @@
+.redbtn {
+  color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: darken($nb-red, 20%);
+  box-shadow: 1px 1px 2px 1px lighten($nb-gray, 50%);
+  transition: all 0.2s ease-in-out;
+}
+
+.redbtn:hover {
+  background-color: $nb-red;
+  padding: 1rem;
+  text-decoration: none;
+  box-shadow: 0 0 0 0 lighten($nb-gray, 50%)
+}

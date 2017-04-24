@@ -10,10 +10,10 @@
         <main class="main container">
           @yield('posts')
           <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-12 col-lg-7">
               @yield('content')
             </div>
-            <aside class="sidebar offset-md-1 col-md-4">
+            <aside class="sidebar offset-md-12 col-md-4">
               @include('partials.sidebar')
             </aside>
           </div>

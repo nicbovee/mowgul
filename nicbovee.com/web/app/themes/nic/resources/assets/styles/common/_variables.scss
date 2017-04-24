@@ -22,15 +22,15 @@ $fa-font-path:          '~font-awesome/fonts';
   font-size: 2.5rem;
 }
 
-.nav-hover {
+.menu-item a {
   color: yellow;
   text-decoration: none;
 }
 
-.banner .nav li {
-  @extend .nav-item;
+.nav-link {
+  @extend .menu-item;
 }
-.banner .nav a {
+.nav-link {
   @extend .nav-link;
   @extend .nav-pack;
 }

@@ -11,5 +11,53 @@
         background: url('../images/nicboveelogo-04.png') no-repeat center;
         background-size: contain;
         width: 200px;
+        height: 100px;
         &:hover {color:rgba(255, 255, 255, 0);}
   }
+
+  .navbar-toggler-icon {
+    background-color: lighten($nb-red, 20%);
+    color: white;
+  }
+
+
+  .menu-sidebar-menu-container {
+    line-height: 2.5;
+  }
+
+/*For closed nav menu*/
+
+.collapsed {
+  .navbar-toggler-icon {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+  }
+  .nav-line {
+    width:60%;
+    height:2px;
+    background-color:white;
+  }
+
+}
+
+/*For open nav menu*/
+.navbar-toggler {
+  .navbar-toggler-icon {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+  }
+  .nav-line {
+    width:60%;
+    height:2px;
+    background-color:white;
+  }
+
+}

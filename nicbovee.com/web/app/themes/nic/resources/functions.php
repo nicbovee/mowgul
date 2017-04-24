@@ -89,3 +89,6 @@ if ($sage_views !== get_option('stylesheet')) {
     wp_redirect($_SERVER['REQUEST_URI']);
     exit();
 }
+
+
+require_once('wp_bootstrap_navwalker.php');

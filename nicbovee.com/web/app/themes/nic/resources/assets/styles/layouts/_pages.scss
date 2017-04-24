@@ -4,3 +4,19 @@
   margin-top: 20px;
   padding: 5%;
 }
+
+/* Archive Post Navigation */
+.nav-previous a,
+.nav-next a {
+  @extend .redbtn;
+
+  &:hover {
+    @extend .redbtn:hover;
+  }
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
