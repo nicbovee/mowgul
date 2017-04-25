@@ -3,6 +3,7 @@
   background: #fff;
   margin-top: 20px;
   padding: 5%;
+  padding-left:60px;
 }
 
 /* Archive Post Navigation */
@@ -19,4 +20,14 @@
   display: flex;
   justify-content: space-between;
   padding-top: 2rem;
+}
+
+@include media-breakpoint-only(xs) {
+  .type-post {
+    background: #fff;
+    margin-top: 50px;
+    padding: 0;
+    padding-left:0;
+  }
+
 }

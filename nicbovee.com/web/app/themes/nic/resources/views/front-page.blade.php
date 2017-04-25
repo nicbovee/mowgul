@@ -5,7 +5,10 @@
 @endsection
 
 @section('posts')
- <h1> Latest posts</h1>
+<div class="row latest-posts">
+ <h2>Latest posts</h2>
+ <hr>
+</div>
 @endsection
 
 @section('content')

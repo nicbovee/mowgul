@@ -23,8 +23,7 @@ $fa-font-path:          '~font-awesome/fonts';
 }
 
 .menu-item a {
-  color: yellow;
-  text-decoration: none;
+  @extend .nav-pack;
 }
 
 .nav-link {

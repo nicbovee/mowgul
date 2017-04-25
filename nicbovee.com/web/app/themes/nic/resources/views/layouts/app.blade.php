@@ -7,10 +7,10 @@
     @yield('front-hero')
     <div class="wrap container-fluid" role="document">
       <div class="content">
-        <main class="main container">
+        <main class="main container posts">
           @yield('posts')
           <div class="row">
-            <div class="col-md-12 col-lg-7">
+            <div class="col-sm-12 col-lg-7">
               @yield('content')
             </div>
             <aside class="sidebar offset-md-12 col-md-4">

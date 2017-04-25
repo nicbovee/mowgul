@@ -19,8 +19,13 @@
   @extend .big-boy-font;
   font-size: 8rem;
   color: $nb-red;
-  margin-top: 15%;
+
 }
+.welcome-text{
+  width: 100%;
+  margin: auto;
+}
+
 
 .myname {
   font-family: $font;
@@ -33,9 +38,33 @@
   font-size: 1.5rem;
   color: lighten($nb-gray, 30%);
 }
+.latest-posts h2 {
+  padding: 0 30px;
+}
 
 .nichoody {
   height: 60vh;
+  min-height:350px;
   background: url('../images/nichoody.png') no-repeat center;
   background-size: contain;
+  margin-top: -3vh;
+}
+
+@include media-breakpoint-down(sm) {
+  .front-hero {
+    height: 100vh;
+  }
+  .nichoody {
+    margin-top: 12vh;
+  }
+}
+@include media-breakpoint-only(lg) {
+  .nichoody {
+    margin-top: -3vh;
+  }
+}
+@include media-breakpoint-only(xl) {
+  .nichoody {
+    margin-top: -10vh;
+  }
 }
