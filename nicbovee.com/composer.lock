@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3913a8696f089a75e66461fa878353ab",
-    "content-hash": "c43ad502f4eeae8ccf089f84ee6fcce1",
+    "hash": "cae15374708dec31a4c4412c6df7a2a8",
+    "content-hash": "3420ac3f8c95f8adb3547fae24124a8a",
     "packages": [
         {
             "name": "composer/installers",
@@ -388,6 +388,48 @@
             "time": "2016-09-01 10:05:43"
         },
         {
+            "name": "wpackagist-plugin/autodescription",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/autodescription/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/autodescription.zip?timestamp=1490595108",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/autodescription/",
+            "time": "2017-03-27 07:11:48"
+        },
+        {
+            "name": "wpackagist-plugin/contact-form-7",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/contact-form-7/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.zip?timestamp=1493006877",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/contact-form-7/",
+            "time": "2017-04-24 05:07:57"
+        },
+        {
             "name": "wpackagist-plugin/jetpack",
             "version": "dev-trunk",
             "source": {
@@ -449,6 +491,27 @@
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/tiny-compress-images/",
             "time": "2017-02-24 15:03:27"
+        },
+        {
+            "name": "wpackagist-plugin/wordfence",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordfence/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordfence.zip?timestamp=1493141540",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordfence/",
+            "time": "2017-04-25 18:32:20"
         }
     ],
     "packages-dev": [
@@ -536,7 +599,10 @@
     "stability-flags": {
         "wpackagist-plugin/scalable-vector-graphics-svg": 20,
         "wpackagist-plugin/tiny-compress-images": 20,
-        "wpackagist-plugin/jetpack": 20
+        "wpackagist-plugin/jetpack": 20,
+        "wpackagist-plugin/autodescription": 20,
+        "wpackagist-plugin/contact-form-7": 20,
+        "wpackagist-plugin/wordfence": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

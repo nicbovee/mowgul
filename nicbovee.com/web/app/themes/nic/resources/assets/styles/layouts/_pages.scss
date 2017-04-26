@@ -9,11 +9,7 @@
 /* Archive Post Navigation */
 .nav-previous a,
 .nav-next a {
-  @extend .redbtn;
-
-  &:hover {
-    @extend .redbtn:hover;
-  }
+  @include nb-btn($nb-blue, #fff);
 }
 
 .nav-links {

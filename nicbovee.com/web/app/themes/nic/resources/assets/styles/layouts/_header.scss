@@ -61,3 +61,15 @@
   }
 
 }
+
+.menu-item a {
+  @extend .nav-pack;
+}
+
+.nav-link {
+  @extend .menu-item;
+}
+.nav-link {
+  @extend .nav-link;
+  @extend .nav-pack;
+}

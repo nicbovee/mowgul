@@ -13,7 +13,7 @@
     {
       "name": "Ben Word",
       "email": "ben@benword.com",
-      "homepage": "https://github.com/retlehs"
+        "homepage": "https://github.com/retlehs"
     }
   ],
   "keywords": [
@@ -41,7 +41,11 @@
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/scalable-vector-graphics-svg": "dev-trunk",
     "wpackagist-plugin/tiny-compress-images": "dev-trunk",
-    "wpackagist-plugin/jetpack": "dev-trunk"
+    "wpackagist-plugin/jetpack": "dev-trunk",
+    "wpackagist-plugin/autodescription": "dev-trunk",
+    "wpackagist-plugin/contact-form-7": "dev-trunk",
+    "wpackagist-plugin/tiny-compress-images": "dev-trunk",
+    "wpackagist-plugin/wordfence": "dev-trunk"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
