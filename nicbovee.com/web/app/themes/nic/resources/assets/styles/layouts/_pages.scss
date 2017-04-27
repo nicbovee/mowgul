@@ -9,7 +9,7 @@
 /* Archive Post Navigation */
 .nav-previous a,
 .nav-next a {
-  @include nb-btn($nb-blue, #fff);
+  @include nb-btn($blue, #fff);
 }
 
 .nav-links {

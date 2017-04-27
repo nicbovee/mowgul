@@ -1,3 +1,9 @@
+:root {
+  font-size: 12px;
+}
+
+/* commenting out to use 12px for whole site
+
 @include media-breakpoint-only(xs) {
   :root{
     font-size: 10px;
@@ -23,26 +29,4 @@
     font-size: 22px;
   }
 }
-
-
-h1 {
-  font-family: $font;
-}
-
-h2 {
-  font-family: $font;
-  color: lighten($nb-gray, 10%);
-}
-.wrap {
-  background: white;
-}
-
-
-.main {
-  padding: 5vh 0;
-}
-
-/* Keep images within container*/
-img {
-  max-width:100%;
-}
+*/

@@ -12,13 +12,13 @@
 
 .hero-content h1 {
   @extend .big-boy-font;
-  color: $nb-gray;
+  color: $nblack;
 }
 
 .howdy {
   @extend .big-boy-font;
   font-size: 6rem;
-  color: $nb-red;
+  color: $nred;
 }
 
 .welcome-text {
@@ -29,16 +29,6 @@
 .myname {
   @extend .big-boy-font;
   color: #fff;
-}
-
-.entry-title a {
-  font-family: $font;
-  font-size: 1.5rem;
-  color: lighten($nb-gray, 30%);
-}
-
-.latest-posts h2 {
-  padding: 0 30px;
 }
 
 .nichoody {

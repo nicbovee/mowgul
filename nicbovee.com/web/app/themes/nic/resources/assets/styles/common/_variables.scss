@@ -1,7 +1,10 @@
 // Colors
-$nb-red: #e61c42;
-$nb-gray: #2f3334;
-$nb-blue: linear-gradient(90deg, #1177f3 0%, #0d59b6 100%);
+$nred: #e61c42;
+$ngray: #9B9B9B;
+$nblack: #4A4A4A;
+$nblue: linear-gradient(90deg, #1177f3 0%, #0d59b6 100%);
+$nyellow: yellow;
+$nshadow: lighten($ngray, 50%);
 
 $font: Bebas;
 $fa-font-path:          '~font-awesome/fonts';
@@ -9,12 +12,12 @@ $fa-font-path:          '~font-awesome/fonts';
 /*Fonts*/
 .nav-pack {
   font-family: $font;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   color: #fff;
   z-index: 100;
   text-decoration: none;
     &:hover, &:active, &focus{
-      color: yellow;
+      color: $nyellow;
       text-decoration: none;
     }
 }

@@ -3,11 +3,11 @@
   padding: 12px;
   border-radius: 4px;
   background: $color;
-  box-shadow: 1px 1px 2px 1px lighten($nb-gray, 50%);
+  box-shadow: 1px 1px 2px 1px $nshadow;
   transition: all 0.2s ease-in-out;
   &:hover {
     background: $color;
     text-decoration: none;
-    box-shadow: 0 0 0 0 lighten($nb-gray, 50%)
+    box-shadow: 0 0 0 0 $nshadow;
   }
 }

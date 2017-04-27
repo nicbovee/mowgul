@@ -15,5 +15,4 @@
   @while(have_posts()) @php(the_post())
     @include('partials.content')
   @endwhile
-  {!! get_the_posts_navigation() !!}
 @endsection

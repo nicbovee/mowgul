@@ -6,17 +6,14 @@
     @include('partials.header')
     @yield('front-hero')
     <div class="wrap container-fluid" role="document">
-      <div class="content">
         <main class="main container posts">
           @yield('posts')
           <div class="row">
-            <div class="col-sm-12 col-lg-7">
               @yield('content')
-            </div>
-            <aside class="sidebar offset-md-12 col-md-4">
+          </div>
+            <aside class="sidebar row">
               @include('partials.sidebar')
             </aside>
-          </div>
         </main>
 
 
