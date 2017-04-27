@@ -7,6 +7,7 @@ $nyellow: yellow;
 $bluegrad: linear-gradient(-137deg, rgba(35,206,247,0.77) 0%, #6C8FBB 100%);
 $font: BebasNeue;
 $fa-font-path:          '~font-awesome/fonts';
+$serif: 'Roboto Slab', serif;
 
 /*Fonts*/
 
@@ -30,8 +31,9 @@ $fa-font-path:          '~font-awesome/fonts';
 }
 
 .nav-pack {
-  font-family: $font;
-  font-size: 1.3rem;
+  margin: auto;
+  font-family: $serif;
+  font-size: 2rem;
   color: #fff;
   z-index: 100;
   text-decoration: none;

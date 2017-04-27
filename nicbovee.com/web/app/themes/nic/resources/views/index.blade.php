@@ -5,9 +5,8 @@
 
   @if (!have_posts())
     <div class="alert alert-warning">
-      {{ __('Sorry, no results were found.', 'sage') }}
+      <h1> No posts found</h1>
     </div>
-    {!! get_search_form(false) !!}
   @endif
 
   @while (have_posts()) @php(the_post())

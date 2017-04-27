@@ -17,18 +17,18 @@
 
 .howdy {
   @extend .big-boy-font;
-  font-size: 6rem;
+  font-size: 8rem;
   color: $nred;
 }
 
-.welcome-text {
-  width: 100%;
-  margin: auto;
+.greeting {
+  padding-top: 30vh;
 }
 
 .myname {
-  @extend .big-boy-font;
+  font-family: 'Roboto Slab', serif;
   color: #fff;
+  font-size: 3rem;
 }
 
 .nichoody {
