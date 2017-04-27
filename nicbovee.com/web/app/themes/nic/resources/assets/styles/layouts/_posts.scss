@@ -1,12 +1,29 @@
 .latest-posts h2 {
-  color: $black;
+  color: $nblack;
+  @extend .md-bebas;
+  padding: 0 30px;
+  margin:  -50px 0 50px 0;
 }
 
 
 .wrap {
   background: white;
-}
 
-.main {
-  padding: 5vh 0;
+  &:before{
+
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -100px;
+    width: 100%;
+    height: 120%;
+    background: white;
+    -webkit-transform: skewY(5deg);
+    -moz-transform: skewY(5deg);
+    -ms-transform: skewY(5deg);
+    -o-transform: skewY(5deg);
+    transform: skewY(5deg);
+    box-shadow: 0 0 29px 6px rgba(0,0,0,0.20);
+    -webkit-backface-visibility: hidden;
+  }
 }

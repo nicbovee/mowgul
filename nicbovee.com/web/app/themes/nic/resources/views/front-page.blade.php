@@ -6,7 +6,7 @@
 
 @section('posts')
 <div class="row latest-posts">
- <h2>Latest posts</h2>
+    <h2>Latest posts</h2>
  <hr>
 </div>
 @endsection
@@ -15,4 +15,5 @@
   @while(have_posts()) @php(the_post())
     @include('partials.content')
   @endwhile
+    <a class="nb-btn" href="#">More Posts</a>
 @endsection

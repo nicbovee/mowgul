@@ -4,12 +4,31 @@ $ngray: #9B9B9B;
 $nblack: #4A4A4A;
 $nblue: linear-gradient(90deg, #1177f3 0%, #0d59b6 100%);
 $nyellow: yellow;
-$nshadow: lighten($ngray, 50%);
-
-$font: Bebas;
+$bluegrad: linear-gradient(-137deg, rgba(35,206,247,0.77) 0%, #6C8FBB 100%);
+$font: BebasNeue;
 $fa-font-path:          '~font-awesome/fonts';
 
 /*Fonts*/
+
+
+.bebas {
+  font-family: BebasNeue;
+  letter-spacing: .67px;
+}
+
+.xs-bebas {
+  @extend .bebas;
+  font-size: 2rem;
+}
+.sm-bebas {
+  @extend .bebas;
+  font-size: 3rem;
+}
+.md-bebas {
+  @extend .bebas;
+  font-size: 4rem;
+}
+
 .nav-pack {
   font-family: $font;
   font-size: 1.3rem;

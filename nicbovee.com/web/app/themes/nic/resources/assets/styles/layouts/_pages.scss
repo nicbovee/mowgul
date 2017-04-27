@@ -6,12 +6,6 @@
   padding-left:60px;
 }
 
-/* Archive Post Navigation */
-.nav-previous a,
-.nav-next a {
-  @include nb-btn($blue, #fff);
-}
-
 .nav-links {
   display: flex;
   justify-content: space-between;

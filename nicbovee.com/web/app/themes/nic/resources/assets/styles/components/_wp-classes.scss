@@ -47,3 +47,22 @@
   @extend .sr-only;
   @extend .sr-only-focusable;
 }
+
+.navigation {
+  width: 100%;
+}
+
+.nav-links {
+  margin: 5% 0;
+}
+
+//Post navigation
+.nav-previous a,
+.nav-next a {
+  @include nb-btn($bluegrad, #fff);
+}
+
+.nb-btn {
+  margin: 5% 0;
+  @include nb-btn($bluegrad, #fff);
+}

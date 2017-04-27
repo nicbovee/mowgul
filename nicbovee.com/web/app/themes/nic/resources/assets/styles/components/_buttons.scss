@@ -1,13 +1,16 @@
 @mixin nb-btn($color,$text-color) {
+  @extend .xs-bebas;
   color: $text-color;
   padding: 12px;
   border-radius: 4px;
   background: $color;
-  box-shadow: 1px 1px 2px 1px $nshadow;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   transition: all 0.2s ease-in-out;
   &:hover {
     background: $color;
+    color: $text-color;
     text-decoration: none;
-    box-shadow: 0 0 0 0 $nshadow;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+
   }
 }

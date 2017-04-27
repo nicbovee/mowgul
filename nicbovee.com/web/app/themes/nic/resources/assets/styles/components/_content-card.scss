@@ -3,12 +3,13 @@
   padding: 15px;
   background: #FFFFFF;
   box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.08);
+  header { margin: 20px 0; }
 }
 
 .entry-title a{
   font-family: 'Roboto Slab', serif;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #9B9B9B;
 }
 
@@ -26,12 +27,12 @@ img.size-medium {
   margin-bottom: 25px;
 }
 
-p {
-  font-family: 'Alegreya Sans', sans-serif;
+.entry-summary {
+  @extend .body;
 }
 
 .updated,
 .author {
   font-family: 'Alegreya Sans', sans-serif;
-  font-size: .7rem;
+  font-size: 1.1rem;
 }

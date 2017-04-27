@@ -1,5 +1,6 @@
 <article class="col-xs-12 col-md-6 col-xl-4" @php(post_class())>
-  <div class="floater-post">
+
+    <div class="floater-post">
     @if( has_post_thumbnail() )
     <div class="img-container">
       @php(the_post_thumbnail('medium'))
