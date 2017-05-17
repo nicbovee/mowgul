@@ -1,4 +1,3 @@
-<header class="banner">
 <nav class="navbar navbar-toggleable-md ">
   <div class="collapse navbar-collapse" id="navbarToggler">
     <a href="{{ home_url('/') }}" class="navbar-brand"></a>
@@ -14,4 +13,3 @@
     </div>
   </button>
 </nav>
-</header>

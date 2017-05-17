@@ -66,3 +66,9 @@
   margin: 5% 0;
   @include nb-btn($bluegrad, #fff);
 }
+
+@include media-breakpoint-up(sm) {
+  .status-publish {
+    max-width: 80%;
+  }
+}
