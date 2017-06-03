@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e64e6f0b2b3aa4dad293cfc32e539b9b",
-    "content-hash": "1e71850994e1e5b0912f43366da51c3e",
+    "hash": "d1ee15d59567704a5306396fa522fdd0",
+    "content-hash": "c1355eed7be178011947c5a22f10836c",
     "packages": [
         {
             "name": "composer/installers",
@@ -445,6 +445,27 @@
             "time": "2016-03-07 16:34:12"
         },
         {
+            "name": "wpackagist-plugin/quick-pagepost-redirect-plugin",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/quick-pagepost-redirect-plugin/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/quick-pagepost-redirect-plugin.zip?timestamp=1461530536",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/quick-pagepost-redirect-plugin/",
+            "time": "2016-04-24 21:42:16"
+        },
+        {
             "name": "wpackagist-plugin/scalable-vector-graphics-svg",
             "version": "dev-trunk",
             "source": {
@@ -550,6 +571,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "wpackagist-plugin/scalable-vector-graphics-svg": 20,
+        "wpackagist-plugin/quick-pagepost-redirect-plugin": 20,
         "wp-sync-db/wp-sync-db": 20,
         "wp-sync-db/wp-sync-db-media-files": 20
     },

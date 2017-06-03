@@ -40,6 +40,7 @@
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/scalable-vector-graphics-svg": "dev-trunk",
+    "wpackagist-plugin/quick-pagepost-redirect-plugin": "dev-trunk",
     "wp-sync-db/wp-sync-db": "dev-master@dev",
     "wp-sync-db/wp-sync-db-media-files": "dev-master@dev"
   },
