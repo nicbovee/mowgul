@@ -13,7 +13,7 @@
     {
       "name": "Ben Word",
       "email": "ben@benword.com",
-        "homepage": "https://github.com/retlehs"
+      "homepage": "https://github.com/retlehs"
     }
   ],
   "keywords": [
@@ -30,13 +30,17 @@
     {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/nicbovee/wpdb"
     }
   ],
   "require": {
     "php": ">=5.6",
     "composer/installers": "~1.0.6",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.7.5",
+    "johnpbloch/wordpress": "4.8",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/scalable-vector-graphics-svg": "dev-trunk",
@@ -46,8 +50,8 @@
     "wpackagist-plugin/contact-form-7": "dev-trunk",
     "wpackagist-plugin/tiny-compress-images": "dev-trunk",
     "wpackagist-plugin/wordfence": "dev-trunk",
-    "wp-sync-db/wp-sync-db" : "dev-master@dev",
-    "wp-sync-db/wp-sync-db-media-files" : "dev-master"
+    "nicbovee/wpdb" : "1.0.0",
+    "nicbovee/wpdb-media" : "1.0.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"

@@ -17,7 +17,7 @@
     <main class="main container posts">
       @yield('posts')
       <div class="row">
-          @yield('content')
+            @yield('content')
       </div>
         <aside class="sidebar row">
           @include('partials.sidebar')
