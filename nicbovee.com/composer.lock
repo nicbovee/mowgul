@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "68415c32e6fd630de0fc11b584b84581",
-    "content-hash": "2022c57dd9eb92710e36b75c46036bba",
+    "hash": "69120ff2153908ed8f5503d9e16e3a7b",
+    "content-hash": "7ef4fdc45d75c7aef1bb2231f5b8748e",
     "packages": [
         {
             "name": "composer/installers",
@@ -109,21 +109,21 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.7.5",
+            "version": "4.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "381ef55a27e1dcc1c4bbe8b0c6a7ba2d45623819"
+                "reference": "75bbc8dade6d66b66c7184656df7b3d545d31baa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/381ef55a27e1dcc1c4bbe8b0c6a7ba2d45623819",
-                "reference": "381ef55a27e1dcc1c4bbe8b0c6a7ba2d45623819",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/75bbc8dade6d66b66c7184656df7b3d545d31baa",
+                "reference": "75bbc8dade6d66b66c7184656df7b3d545d31baa",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "4.7.5",
-                "johnpbloch/wordpress-core-installer": "~0.2",
+                "johnpbloch/wordpress-core": "4.8.1",
+                "johnpbloch/wordpress-core-installer": "^1.0",
                 "php": ">=5.3.2"
             },
             "type": "package",
@@ -144,20 +144,20 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-05-16 22:48:14"
+            "time": "2017-08-02 21:47:41"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "4.7.5",
+            "version": "4.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "9a88a4b4c65f689d78789ef6ff77a7ca0239ec02"
+                "reference": "eee7b6128469d31803da3a07aaac9c442f81758e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/9a88a4b4c65f689d78789ef6ff77a7ca0239ec02",
-                "reference": "9a88a4b4c65f689d78789ef6ff77a7ca0239ec02",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/eee7b6128469d31803da3a07aaac9c442f81758e",
+                "reference": "eee7b6128469d31803da3a07aaac9c442f81758e",
                 "shasum": ""
             },
             "require": {
@@ -181,20 +181,20 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-05-16 22:48:08"
+            "time": "2017-08-02 21:47:36"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
-            "version": "0.2.1",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core-installer.git",
-                "reference": "a04c2c383ef13aae077f36799ed2eafdebd618d2"
+                "reference": "e9e767f2d9f994f358c34b41def2c410ad8717f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/a04c2c383ef13aae077f36799ed2eafdebd618d2",
-                "reference": "a04c2c383ef13aae077f36799ed2eafdebd618d2",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/e9e767f2d9f994f358c34b41def2c410ad8717f2",
+                "reference": "e9e767f2d9f994f358c34b41def2c410ad8717f2",
                 "shasum": ""
             },
             "require": {
@@ -204,7 +204,8 @@
                 "composer/installers": "<1.0.6"
             },
             "require-dev": {
-                "composer/composer": "1.0.*@dev"
+                "composer/composer": "^1.0",
+                "phpunit/phpunit": ">=4.8.35"
             },
             "type": "composer-plugin",
             "extra": {
@@ -229,20 +230,20 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-06-11 15:15:30"
+            "time": "2017-05-31 18:42:33"
         },
         {
             "name": "oscarotero/env",
-            "version": "v1.0.2",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oscarotero/env.git",
-                "reference": "0819fd764ca19ab880b8d9ed7a95ae4910f98f20"
+                "reference": "0f676e41d758fa984806c32e27f0cf7afa63d8db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oscarotero/env/zipball/0819fd764ca19ab880b8d9ed7a95ae4910f98f20",
-                "reference": "0819fd764ca19ab880b8d9ed7a95ae4910f98f20",
+                "url": "https://api.github.com/repos/oscarotero/env/zipball/0f676e41d758fa984806c32e27f0cf7afa63d8db",
+                "reference": "0f676e41d758fa984806c32e27f0cf7afa63d8db",
                 "shasum": ""
             },
             "require": {
@@ -271,7 +272,7 @@
             "keywords": [
                 "env"
             ],
-            "time": "2016-05-08 17:14:32"
+            "time": "2017-07-17 20:41:59"
         },
         {
             "name": "roots/wp-password-bcrypt",
@@ -379,70 +380,6 @@
                 "environment"
             ],
             "time": "2016-09-01 10:05:43"
-        },
-        {
-            "name": "wp-sync-db/wp-sync-db",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/wp-sync-db/wp-sync-db.git",
-                "reference": "8f18390a83374089acfac202491e78d4938616fd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/wp-sync-db/wp-sync-db/zipball/8f18390a83374089acfac202491e78d4938616fd",
-                "reference": "8f18390a83374089acfac202491e78d4938616fd",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0.6"
-            },
-            "type": "wordpress-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0"
-            ],
-            "description": "WP Sync DB eliminates the manual work of migrating a WP database.",
-            "homepage": "https://github.com/wp-sync-db/wp-sync-db",
-            "keywords": [
-                "db",
-                "plugin",
-                "wordpress",
-                "wp-sync-db"
-            ],
-            "time": "2016-04-24 08:56:12"
-        },
-        {
-            "name": "wp-sync-db/wp-sync-db-media-files",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/wp-sync-db/wp-sync-db-media-files.git",
-                "reference": "cebf64eb528532d627284353278b284bb12e7ef1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/wp-sync-db/wp-sync-db-media-files/zipball/cebf64eb528532d627284353278b284bb12e7ef1",
-                "reference": "cebf64eb528532d627284353278b284bb12e7ef1",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0.6"
-            },
-            "type": "wordpress-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0"
-            ],
-            "description": "WP Sync DB Media File Addon for WP Sync DB",
-            "homepage": "https://github.com/wp-sync-db/wp-sync-db-media-files",
-            "keywords": [
-                "media",
-                "plugin",
-                "wordpress",
-                "wp-sync-db"
-            ],
-            "time": "2016-03-07 16:34:12"
         },
         {
             "name": "wpackagist-plugin/autodescription",
@@ -659,9 +596,7 @@
         "wpackagist-plugin/jetpack": 20,
         "wpackagist-plugin/autodescription": 20,
         "wpackagist-plugin/contact-form-7": 20,
-        "wpackagist-plugin/wordfence": 20,
-        "wp-sync-db/wp-sync-db": 20,
-        "wp-sync-db/wp-sync-db-media-files": 20
+        "wpackagist-plugin/wordfence": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
